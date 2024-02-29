@@ -18,7 +18,7 @@ public class GreetingResource {
         String hostname = httpHeaders.getHeaderString("Host");
         String response = null;
         String hello = "SEVMTE9fV09STEQ=";
-        String aloha = "QUxPSEFfR1JFRVRJTkc="
+        String aloha = "QUxPSEFfR1JFRVRJTkc=";
 
         if (hostname.contains("aloha")) 
             response = new String(Base64.getDecoder().decode(aloha));
