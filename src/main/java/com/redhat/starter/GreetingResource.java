@@ -5,6 +5,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import javax.ws.rs.core.HttpHeaders;
+import java.util.Base64;
 
 @Path("/")
 public class GreetingResource {
